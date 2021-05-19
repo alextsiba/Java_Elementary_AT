@@ -5,7 +5,7 @@ public class Person {
     private Integer age;
 
     public String getName() {
-        return name;
+        return null;
     }
 
     public Integer getAge() {

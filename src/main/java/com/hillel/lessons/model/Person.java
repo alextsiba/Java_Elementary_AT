@@ -1,11 +1,24 @@
 package com.hillel.lessons.model;
 
 public class Person {
-    private String name;
+    private String firstname;
+    private String lastname;
     private Integer age;
 
-    public String getName() {
-        return null;
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
     }
 
     public Integer getAge() {
@@ -16,7 +29,5 @@ public class Person {
         this.age = age;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+
 }

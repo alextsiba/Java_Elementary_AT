@@ -3,6 +3,7 @@ package com.hillel.lessons.model;
 public class Person {
     private String firstname;
     private String lastname;
+    private String userName;
     private Integer age;
 
     public String getFirstname() {

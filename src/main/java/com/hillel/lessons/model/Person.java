@@ -2,6 +2,7 @@ package com.hillel.lessons.model;
 
 public class Person {
     private String name;
+    private String userName;
     private Integer age;
 
     public String getName() {
